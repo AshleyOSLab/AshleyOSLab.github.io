@@ -1,6 +1,7 @@
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-feed
 
 title: Compound Life OS
 description: >-

@@ -6,6 +6,9 @@
   <title>{% if page.title %}{{ page.title }} · {% endif %}Compound Life OS</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml">
+  <link rel="sitemap" type="application/xml" href="{{ site.url }}/sitemap.xml">
+  <meta name="author" content="Ashley">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {

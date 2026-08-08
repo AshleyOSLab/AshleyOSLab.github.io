@@ -27,6 +27,13 @@ Chinese content brand: **最小阻力慢养**
 - Investment Research
 - Systems Thinking
 
+## Subscribe
+
+- [RSS Feed](/feed.xml)
+- [Sitemap](/sitemap.xml)
+
+---
+
 ## Site Map
 
 ├── [Systems](/systems/) — frameworks and mental models
