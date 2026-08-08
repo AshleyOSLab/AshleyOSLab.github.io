@@ -2,15 +2,35 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-title: Compound Life OS · 最小阻力慢养
-description: 人生复利系统的公开锚点。让 AI 搜索引用你的内容。
-author: 七日阿饭 (Ashley)
+title: Compound Life OS
+description: >-
+  Ashley's personal operating system for AI, knowledge, growth and investing.
+  Building frameworks, running experiments, compounding insights.
+author: Ashley
+
 url: "https://ashleyoslab.github.io"
+github:
+  username: AshleyOSLab
 
 defaults:
   - scope:
       path: ""
     values:
       layout: default
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+
+collections:
+  systems:
+    output: true
+    permalink: /systems/:path/
+  experiments:
+    output: true
+    permalink: /experiments/:path/
+  notes:
+    output: true
+    permalink: /notes/:path/
 
 markdown: kramdown
