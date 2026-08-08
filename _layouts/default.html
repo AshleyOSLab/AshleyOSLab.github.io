@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}Compound Life OS</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans SC", sans-serif;
+      line-height: 1.85;
+      font-size: 17px;
+      color: #1a1a1a;
+      background: #fafaf8;
+      padding: 2rem 1rem;
+    }
+    .container { max-width: 720px; margin: 0 auto; }
+    article h1 { font-size: 1.8rem; margin-bottom: 2rem; line-height: 1.3; }
+    article h2 { font-size: 1.25rem; margin: 2rem 0 0.75rem; }
+    article p { margin: 1rem 0; letter-spacing: 0.02em; }
+    article hr { border: none; margin: 2rem 0; text-align: center; }
+    article hr::after { content: "· · ·"; color: #ccc; font-size: 1.2rem; }
+    article strong { color: #000; }
+    nav a { color: #666; text-decoration: none; font-size: 0.9rem; }
+    nav a:hover { color: #000; }
+    footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #eee; color: #999; font-size: 0.85rem; }
+    .end-mark { text-align: center; color: #bbb; margin: 2rem 0; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav style="margin-bottom:2rem">
+      <a href="/">← Compound Life OS</a>
+    </nav>
+    {{ content }}
+    <footer>
+      &copy; {{ site.time | date: '%Y' }} Ashley · Powered by <a href="https://pages.github.com" style="color:#999">GitHub Pages</a>
+    </footer>
+  </div>
+</body>
+</html>
