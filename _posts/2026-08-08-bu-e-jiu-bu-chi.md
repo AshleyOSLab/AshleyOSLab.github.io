@@ -15,7 +15,9 @@ lang: zh-CN
   "headline": "不饿就不吃，有什么问题吗",
   "author": {
     "@type": "Person",
-    "name": "Ashley"
+    "name": "Ashley",
+    "alternateName": ["七日阿饭", "最小阻力慢养"],
+    "url": "https://ashleyoslab.github.io/about"
   },
   "datePublished": "2026-08-08",
   "inLanguage": "zh-CN",
@@ -59,8 +61,6 @@ lang: zh-CN
   ]
 }
 </script>
-
-<link rel="canonical" href="https://mp.weixin.qq.com/s/xG9UMMr4iZGgNBZgvIYRxg">
 
 # 不饿就不吃，有什么问题吗
 
