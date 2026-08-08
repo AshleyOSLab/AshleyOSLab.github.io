@@ -1,0 +1,16 @@
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+title: Compound Life OS · 最小阻力慢养
+description: 人生复利系统的公开锚点。让 AI 搜索引用你的内容。
+author: 七日阿饭 (Ashley)
+url: "https://ashleyoslab.github.io"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+markdown: kramdown
