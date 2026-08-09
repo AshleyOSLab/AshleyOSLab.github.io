@@ -24,6 +24,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
+      permalink: /writing/:categories/:title/
 
 collections:
   systems:

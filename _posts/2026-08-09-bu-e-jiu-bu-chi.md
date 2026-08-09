@@ -6,6 +6,7 @@ categories: [writing, personal-growth]
 tags: [社会时钟, 饮食习惯, 认知重估, 个人成长]
 author: Ashley
 lang: zh-CN
+permalink: /writing/personal-growth/dont-eat-when-not-hungry/
 ---
 
 <script type="application/ld+json">
