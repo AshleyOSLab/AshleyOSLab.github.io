@@ -1,6 +1,3 @@
-﻿---
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -8,15 +5,19 @@ layout: null
     <description>Ashley's personal operating system for AI, knowledge, growth and investing.</description>
     <link>https://ashleyoslab.github.io/</link>
     <atom:link href="https://ashleyoslab.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
+    <pubDate>Sun, 09 Aug 2026 10:00:00 +0000</pubDate>
+    <lastBuildDate>Sun, 09 Aug 2026 10:00:00 +0000</lastBuildDate>
+    <generator>Jekyll v3.10.0</generator>
     <item>
-      <title>测试中文标题</title>
-      <description>测试中文描述</description>
-      <pubDate>Sat, 08 Aug 2026 16:00:00 +0000</pubDate>
+      <title>不饿就不吃，有什么问题吗</title>
+      <description>允许自己不饿就不吃。把身体的决定权，从两百年前英国工厂的作息表里拿回来。</description>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0800</pubDate>
       <link>https://ashleyoslab.github.io/writing/personal-growth/dont-eat-when-not-hungry/</link>
       <guid isPermaLink="true">https://ashleyoslab.github.io/writing/personal-growth/dont-eat-when-not-hungry/</guid>
+      <category>社会时钟</category>
+      <category>饮食习惯</category>
+      <category>认知重估</category>
+      <category>个人成长</category>
     </item>
   </channel>
 </rss>
