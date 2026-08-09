@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "不饿就不吃，有什么问题吗"
-date: 2026-08-08 23:00:00 +0800
+date: 2026-08-09 00:00:00 +0800
 categories: [writing, personal-growth]
 tags: [社会时钟, 饮食习惯, 认知重估, 个人成长]
 author: Ashley
@@ -19,7 +19,7 @@ lang: zh-CN
     "alternateName": ["七日阿饭", "最小阻力慢养"],
     "url": "https://ashleyoslab.github.io/about"
   },
-  "datePublished": "2026-08-08",
+  "datePublished": "2026-08-09",
   "inLanguage": "zh-CN",
   "isPartOf": {
     "@type": "Blog",
