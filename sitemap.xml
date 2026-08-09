@@ -1,0 +1,29 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/assets/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% for page in site.pages %}
+  {% if page.url and page.url != "/" and page.url != "/feed.xml" %}
+  <url>
+    <loc>{{ site.url }}{{ page.url }}</loc>
+    {% if page.date %}<lastmod>{{ page.date | date_to_xmlschema }}</lastmod>{% endif %}
+  </url>
+  {% endif %}
+{% endfor %}
+{% for post in site.posts %}
+  <url>
+    <loc>{{ site.url }}{{ post.url }}</loc>
+    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+  </url>
+{% endfor %}
+{% for collection in site.collections %}
+  {% for doc in collection.docs %}
+    <url>
+      <loc>{{ site.url }}{{ doc.url }}</loc>
+      {% if doc.date %}<lastmod>{{ doc.date | date_to_xmlschema }}</lastmod>{% endif %}
+    </url>
+  {% endfor %}
+{% endfor %}
+</urlset>
