@@ -3,6 +3,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
+encoding: utf-8
+
 title: Compound Life OS
 description: >-
   Ashley's personal operating system for AI, knowledge, growth and investing.
