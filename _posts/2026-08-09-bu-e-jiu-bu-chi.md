@@ -2,6 +2,7 @@
 layout: default
 title: "不饿就不吃，有什么问题吗"
 date: 2026-08-09 00:00:00 +0800
+description: "一日三餐不是生理规律，是宋朝经济繁荣制造的社会习惯。从商周两餐到工厂三餐，从凯洛格禁欲玉米片到现代间歇断食——你还在按一千年前的习惯吃吗？"
 categories: [writing, personal-growth]
 tags: [社会时钟, 饮食习惯, 认知重估, 个人成长]
 author: Ashley
